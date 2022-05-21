@@ -1,0 +1,110 @@
+
+
+
+.top-header{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+	position: absolute;
+	top: 12rem;
+	left: 10%;
+	width: 40%;
+}
+
+.top-i{
+	color: white;
+    position: absolute;
+    top: 23rem;
+    left: 90%;
+}
+.header h1{
+	color: white;
+    line-height: 0.8;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+
+p{
+	font-size: 12px;
+}
+.h3-1{
+	position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+.left{
+	position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+button a{
+	font-size: 12px;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.card:hover{
+	box-shadow: 1px 5px 3px 0px;
+	transition: .5s;
+}
+
+.work-p{
+	color: wheat;
+    width: 40%;
+    position: absolute;
+    left: 8%;
+}
+
+.work-i{
+	position: absolute;
+    top: 6rem;
+    left: 90%;
+    color: white;
+}
+
+/* carsole 2nd */
+@media (min-width: 1200px){
+.cara {
+    max-width: 100%;
+}
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item1 > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item1 > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item1.active,
+.carousel-inner .carousel-item1-next,
+.carousel-inner .carousel-item1-prev {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 992px) {
+    .carousel-inner .carousel-item1-right.active,
+    .carousel-inner .carousel-item1-next {
+      transform: translateX(16.6%);
+    }
+    
+    .carousel-inner .carousel-item1-left.active, 
+    .carousel-inner .carousel-item1-prev {
+      transform: translateX(-16.6%);
+    }
+}
+
+.carousel-inner .carousel-item1-right,
+.carousel-inner .carousel-item1-left{ 
+    transform: translateX(0);
+}
+/* carsole end */

@@ -1,0 +1,78 @@
+
+body{
+	font-size: 62.5%;
+	font-weight: 600;
+}
+
+a{
+	text-decoration: none
+}
+.top-left-btn{
+	border: 2px solid orange;
+    border-radius: 5px;
+    width: 9rem;
+    background-color: transparent;
+    padding: 5px 10px;
+}
+
+.heading p{
+	width: 20rem;
+}
+.heading button{
+	background-color: orange;
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.heading button a{color: white;}
+.text-center {
+	
+}
+
+.fa-headphones-alt{color: #09c509;
+                   font-size: 40px;
+    margin-bottom: 20px;}
+
+.fa-desktop{color:#5555ec;
+font-size: 40px;
+    margin-bottom: 20px;}
+.fa-sms{color: #e8626f;
+font-size: 40px;
+    margin-bottom: 20px;}
+
+ .left i{
+ 	font-size: 40px;
+ }   
+
+ .trail-btn{
+ 	border: 0;
+    background-color: blue;
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin-top: 1.3rem;
+ }
+ .trail-btn a,.try-btn a{color:white;}
+ .container-fluid{padding-left: 0!important;
+                  padding-right: 0!important;}
+
+ .try-btn{
+ 	padding: 6px 18px;
+    border: 0;
+    background-color: #ff2b1b;
+    border-radius: 5px;
+    margin-top: 1.3rem;
+ }                 
+
+.jhon{
+	border-left: 3px solid orange;
+    height: 3.5rem;
+    padding: 0 10px;
+    
+}
+.fa-quote-left{
+	font-size: 40px;
+	color: blue;
+}
+
+
+/* footer start */
